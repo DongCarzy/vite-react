@@ -1,0 +1,38 @@
+body {
+  background-color: aliceblue;
+}
+
+.todo-app {
+  text-align: center;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.todo-title {
+  font-size: 35px;
+  margin: 30px;
+}
+
+.todo-item {
+  display: flex;
+}
+
+.todo-search {
+  display: flex;
+  margin: 10px auto;
+}
+
+.todo-container-list {
+  display: flex !important;
+  padding: 10px !important;
+  font-size: 15px;
+  border: #333 1px solid;
+}
+
+.todo-container-list-done {
+  display: flex !important;
+  padding: 10px !important;
+  font-size: 15px;
+  background-color: lightgray;
+  text-decoration: line-through;
+}
